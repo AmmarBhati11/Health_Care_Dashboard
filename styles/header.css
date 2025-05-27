@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 20px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: 500;
+  color: #444;
+}
+
+.add-btn {
+  background-color: #70b4fd;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover{
+  background-color:#007bff;
+  }
+}

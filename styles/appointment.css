@@ -1,0 +1,48 @@
+.calendar-view {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.calendar-day {
+  background: #eef3fa;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.times span {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.card-list {
+  margin-top: 12px;
+}
+
+.status-card {
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.simple-card {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 6px 0;
+  border-left: 4px solid #007bff;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(228, 228, 228);
+  }
+}

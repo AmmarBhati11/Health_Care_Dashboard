@@ -1,0 +1,32 @@
+.anatomy-section {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.anatomy-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-between;
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.indicator.healthy {
+  color: green;
+}
+
+.indicator.critical {
+  color: red;
+}
