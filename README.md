@@ -2,6 +2,7 @@
 A responsive and modern Healthcare Dashboard built using React.js. This project provides a user-friendly interface to visualize health data, upcoming appointments, and weekly schedules. It includes health status cards, sidebar navigation, search functionality, notifications, and more — ideal for healthcare professionals or clinics.
 
 🚀 Features
+
 📊 Dashboard overview with health metrics
 📁 Sidebar navigation (History, Calendar, Appointments, Tests, Chat)
 🗓️ Weekly appointment scheduler
