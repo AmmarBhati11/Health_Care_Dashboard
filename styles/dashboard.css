@@ -20,3 +20,19 @@
   flex-direction: column;
   gap: 20px;
 }
+
+@media (max-width: 768px) {
+  .dashboard-body {
+    flex-direction: column;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .dashboard-main {
+    padding: 16px;
+  }
+}

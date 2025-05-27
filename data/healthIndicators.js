@@ -1,16 +1,16 @@
 export const healthIndicators = [
   {
-    name: 'Healthy Heart',
+    // name: 'Healthy Heart',
     icon: '/assets/heart.avif',
     status: 'Healthy',
   },
   {
-    name: 'Lungs',
+    // name: 'Lungs',
     icon: '/assets/lungs.avif',
     status: 'Critical',
   },
   {
-    name: 'Teeth',
+    // name: 'Teeth',
     icon: '/assets/teeth.avif',
     status: 'Healthy',
   },

@@ -46,3 +46,19 @@
     background-color: rgb(228, 228, 228);
   }
 }
+
+@media (max-width: 768px) {
+  .calendar-grid {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .calendar-day {
+    width: 100%;
+  }
+
+  .status-card,
+  .simple-card {
+    width: 100%;
+  }
+}

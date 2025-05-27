@@ -30,3 +30,14 @@
 .indicator.critical {
   color: red;
 }
+
+@media (max-width: 768px) {
+  .indicators {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .indicator {
+    font-size: 13px;
+  }
+}
